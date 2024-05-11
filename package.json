@@ -12,7 +12,11 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "potfisch-ui": "^1.3.0",
+    "@potfisch-industries-npm/usefetch": "^1.0.0",
+    "pokemon-typescript": "^1.0.0",
+    "pokemon-typecolors": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

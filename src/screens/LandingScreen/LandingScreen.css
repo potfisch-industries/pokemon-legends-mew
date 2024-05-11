@@ -1,0 +1,10 @@
+.landingScreen {
+  background-image: url(./mew-background.jpeg);
+  height: 100dvh;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

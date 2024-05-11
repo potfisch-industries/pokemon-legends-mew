@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import "potfisch-ui/dist/main.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { LandingScreen } from "./screens/LandingScreen/LandingScreen.tsx";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <LandingScreen />
+  </React.StrictMode>
+);
