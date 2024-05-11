@@ -1,0 +1,16 @@
+.dialogueScreen {
+  background-image: url(./mew-background.jpeg);
+  height: calc(100dvh - 2rem);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem;
+
+  img {
+    align-self: center;
+  }
+}
