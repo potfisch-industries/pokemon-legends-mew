@@ -2,10 +2,10 @@ import "potfisch-ui/dist/main.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { IntroSteps } from "./constants/introSteps";
 import "./index.css";
-import { DialogueScreen } from "./screens/DialogueScreen/DialogueScreen";
+import { IntroScreen } from "./screens/IntroScreen/IntroScreen";
 import { LandingScreen } from "./screens/LandingScreen/LandingScreen";
+import { StarterSelectionScreen } from "./screens/StarterSelectionScreen/StarterSelectionScreen";
 
 const router = createBrowserRouter([
   {
@@ -14,12 +14,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/intro",
-    element: (
-      <DialogueScreen
-        steps={IntroSteps}
-        afterLastStep={() => console.log("fbriuebfiu")}
-      />
-    ),
+    element: <IntroScreen />,
+  },
+  {
+    path: "/starter-selection",
+    element: <StarterSelectionScreen />,
   },
 ]);
 

@@ -29,3 +29,14 @@ h2,
 h3 {
   font-weight: 400;
 }
+button {
+  background-color: var(--potfisch-ui-background);
+  color: var(--potfisch-ui-main);
+  padding: 1rem;
+  border: 1px solid;
+  font: inherit;
+  border-radius: var(--potfisch-ui-rounded);
+}
+button:disabled {
+  color: color-mix(in srgb, var(--potfisch-ui-main), black);
+}

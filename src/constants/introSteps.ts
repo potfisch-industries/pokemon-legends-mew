@@ -1,4 +1,4 @@
-import { DialogueStep } from "../screens/DialogueScreen/DialogueScreen";
+import { DialogueStep } from "../components/DialogueScreen/DialogueScreen";
 
 export const IntroSteps: DialogueStep[] = [
   { text: "Breaking News", url: "./Reporter.webp" },
@@ -20,7 +20,7 @@ export const IntroSteps: DialogueStep[] = [
     url: "./Reporter.webp",
   },
   {
-    text: "Even though they can understand the excitement,",
+    text: "Even though we can understand the excitement,",
     url: "./Reporter.webp",
   },
   {
@@ -34,5 +34,25 @@ export const IntroSteps: DialogueStep[] = [
   {
     text: "All Trainers should be aware of the dangers and proceed at their own risk. ",
     url: "./Reporter.webp",
+  },
+  {
+    text: "This is all the information we have right now. ",
+    url: "./Reporter.webp",
+  },
+  {
+    text: " From all of us at PokeNews: Good luck on the hunt for mew, Trainers! ",
+    url: "./Reporter.webp",
+  },
+  {
+    text: "You are a young Trainer who has booked passage ",
+    url: "./mew.jpeg",
+  },
+  {
+    text: "to the Kuma Region, hoping to meet Mew.",
+    url: "./mew.jpeg",
+  },
+  {
+    text: "Select your Equipment and start your Journey.",
+    url: "./mew.jpeg",
   },
 ];
